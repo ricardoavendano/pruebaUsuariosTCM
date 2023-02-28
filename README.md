@@ -17,6 +17,10 @@ Se realiza cálculo de los días de retraso de la ejecución respecto al día de
 5. Swagger
 6. SpringBoot
 7. Manejo de errores y excepciones
+8. Esquema de branch
+        Rama principal: main
+        Rama desarrollo: develop
+        Ramas desarrollo (features): feature/crud
 
 ## Para ejecutar el proyecto se deben realizar los siguientes pasos
 1. Descargar fuente de github: git clone git clone https://github.com/ricardoavendano/pruebaUsuariosTCM.git
@@ -24,14 +28,14 @@ Se realiza cálculo de los días de retraso de la ejecución respecto al día de
 3. Ir al directorio donde se encuentra el fuente y dirigirse a la carpeta target; por línea de comandos ejecutar jar: java -jar prueba-0.0.1-SNAPSHOT.jar
 4. La aplicación ya se encuentra desplegada localmente en la url (http://localhost:8080)
 5. Ingreso a la BD H2
-	url: http://localhost:8080/pruebaTCM/h2-console/login.jsp
-	JDBC URL: jdbc:h2:mem:pruebaTCM
-	User name: pruebaTCM
-	Password: pruebaTCM
-	
-	Tablas: TAREA, USUARIO
+    url: http://localhost:8080/pruebaTCM/h2-console/login.jsp
+    JDBC URL: jdbc:h2:mem:pruebaTCM
+    User name: pruebaTCM
+    Password: pruebaTCM
+    
+    Tablas: TAREA, USUARIO
 7. Uso de Swagger
-	http://localhost:8080/pruebaTCM/swagger-ui.html#/
+    http://localhost:8080/pruebaTCM/swagger-ui.html#/
 
 
 ## Servicios expuestos
